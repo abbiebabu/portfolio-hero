@@ -163,7 +163,7 @@ export default function Home() {
                 }}
               >
                 <Image
-                  src="/profile.png"
+                  src="./profile.png"
                   alt="Profile"
                   width={180}
                   height={180}
