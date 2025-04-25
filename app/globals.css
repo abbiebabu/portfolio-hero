@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 30, 30, 30;
+  --background-rgb: 248, 248, 248;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  overflow-x: hidden;
+}
+
+.font-phudu {
+  font-family: "Phudu", sans-serif;
+  font-weight: 800;
+}
+
+.font-patrick {
+  font-family: "Patrick Hand", cursive;
+}
+
+.font-pixelify {
+  font-family: "Pixelify Sans", sans-serif;
+}
